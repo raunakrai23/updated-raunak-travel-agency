@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.border :hover{
+    border-color: black;
+    border: 2px solid black;
+}
+.navbar{
+    background-color: rgb(7, 7, 15);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 67px;
+    width: 100%;
+    color: white;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 25px;
+    color: black;
+}
+
+.inputtext{
+    height: 100pxpx;
+    color: black;
+}
+.searchselect{
+    height: 30px;
+}.searchicon{
+    height: 28px;
+    background-color:white;
+    position: relative;
+    top: 1px;
+    
+    
+}
+.signin{
+    font-size: 0.85rem;
+}
+.accounts{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.box2{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.box3{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.box4{
+    font-size: 1rem;
+    display: flex;
+    font-weight: 600;
+}
+/* container time */
+.container{
+    background-image: url("travel2.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+.containermsg{
+    padding: 50px 0;
+}
+.containermsg p{
+    font-size: 1rem;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.fouroptions{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.box{
+    width: 90px;
+    height: 45px;
+    font-size: 0.95rem;
+}
+.travelsection{
+    background-color: rgb(11, 70, 70);
+    height: 50px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 20px;
+
+}
+.images{
+    padding-top: 0px;
+    height: 300px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.placename{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.duration{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    background-color: rgb(9, 14, 14);
+    color: white;
+}
+.prices{
+    height: 50px;
+    background-color: rgb(1, 1, 8);
+    text-align:center;
+    color: white;
+    padding-top: 10px;
+    font-weight: 400;
+}
+.personal{
+    background-color: rgb(33, 58, 59);
+    padding-top: 10px;
+    text-align:left;
+    color: white;
+
+}
+.gender{
+    display: flex;
+    background-color: rgb(15, 11, 3);
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.choices{
+    padding-top: 10px;
+    background-color: rgb(240, 229, 229);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.dates{
+    background-color: yellow;
+    padding-top: 10px;
+}
+.start{
+    background-color: gray;
+    padding-top: 10px;
+    height: 100px;
+
+}
+.visit{
+    background-color: rgb(17, 17, 57);
+    padding-top: 10px;
+    height: 100px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+.payment{
+    height: 150px;
+    background-color: rgba(51, 138, 175, 0.341);
+    padding-top: 10px;
+    
+}
+.pay{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last{
+    background-color: gray;
+    padding: 10px;
+    height: 150px;
+}
+.lastimage{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+    padding-top: 10px;
+}
+.lastone{
+    background-color: rgb(106, 63, 102);
+    padding: 10px;
+    height: 200px;
+    
+}
+
+.lastbutton{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content:left};
+
+
+
+
+.lastbhai{
+    background-color: rgb(2, 4, 13);
+    color: rgb(239, 241, 237);
+    height: 60px;
+    align-content: center;
+}
+.lastbhai .pages{
+    text-align: center;
+    font-size: 0.85rem;
+}
+.lastbhai.pages :hover{
+    cursor: pointer;
+    
+}
+.lastbhai .copyright{
+    margin-left: 500px;
+    font-size: 0.85rem;
+    padding-top: 5px;
+}
+.lastbhai.copyright :hover{
+    cursor: pointer;
+    
+}
